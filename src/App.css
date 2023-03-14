@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 40px 0;
   height: 100%;
   display: flex;
@@ -18,9 +19,11 @@ body {
   text-align: center;
   color: #334155;
   font-size: 30px;
+  
 }
 .App {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -36,7 +39,7 @@ body {
   justify-content: space-between;
 }
 .accordion {
-  width: 750px;
+  max-width: 750px;
   background-color: transparent;
   border-radius: 6px;
   padding: 16px 24px;

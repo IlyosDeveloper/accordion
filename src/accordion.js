@@ -7,7 +7,9 @@ function Accordion({ title, text }) {
     <div className='accordion'>
       <div className='header'>
         <h2 className='title'>{title}</h2>
+        <div>
         <button onClick={() => setShow(!show)}>{show ? "-" : "+"}</button>
+        </div>
       </div>
       {show && <p className="text">{text}</p>}
     </div>
